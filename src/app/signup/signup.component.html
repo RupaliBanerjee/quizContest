@@ -1,0 +1,25 @@
+<div class="containerClass">
+  <div class="mainContent">
+
+    <div class="signUpForm" *ngIf="!signUpForm.controls['email'].valid ||!signupDone">
+      <p class="mainTitle"><b>Sign Up</b></p>
+      <p class="subTitle">Please Signup to take the QUIZ</p>
+      <form [formGroup]="signUpForm" (ngSubmit)="!signUpForm.controls['email'].valid?'': startQuiz(userEmail)">
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your email</mat-label>
+          <input #userEmail placeholder="pat@example.com" [disabled]="true" formControlName="email" type="email"
+            matInput placeholder="Email">
+          <mat-error *ngIf="!signUpForm.controls['email'].valid && signUpForm.controls['email'].touched">Please Enter
+            valid email</mat-error>
+        </mat-form-field>
+        <br>
+        <button *ngIf="!signUpForm.controls['email'].valid ||!signupDone" mat-raised-button color="primary"
+          type="submit">Sign Up</button>
+
+      </form>
+    </div>
+    <button *ngIf="signupDone && signUpForm.controls['email'].valid " mat-raised-button color="primary"
+      (click)="enterQuiz()">Enter Contest</button>
+
+  </div>
+</div>

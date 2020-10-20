@@ -1,0 +1,82 @@
+[
+    {
+      "questionId":1,
+      "options":[
+        {
+          "optId":1,
+          "optValue":"Delhi",
+          "isCorrect":true
+        },
+        {
+          "optId":2,
+          "optValue":"Mumbai",
+          "isCorrect":false
+        }
+      ]
+
+    },
+    {
+      "questionId":2,
+      "options":[
+        {
+          "optId":1,
+          "optValue":"lion",
+          "isCorrect":false
+        },
+        {
+            "optId":2,
+            "optValue":"Tiger",
+            "isCorrect":true
+          }
+      ]
+
+    },
+    {
+      "questionId":3,
+      "options":[
+        {
+          "optId":1,
+          "optValue":"blue",
+          "isCorrect":true
+        },
+        {
+            "optId":2,
+            "optValue":"red",
+            "isCorrect":false
+          }
+      ]
+
+    },
+    {
+      "questionId":4,
+      "options":[
+        {
+          "optId":1,
+          "optValue":"number",
+          "isCorrect":true
+        },
+        {
+            "optId":2,
+            "optValue":"null",
+            "isCorrect":false
+          }
+      ]
+
+    },
+    {
+      "questionId":5,
+      "options":[
+        {
+          "optId":1,
+          "optValue":"Arnab Mukherjee",
+          "isCorrect":false
+        },
+        {
+            "optId":2,
+            "optValue":"Narendra Modi",
+            "isCorrect":true
+          }
+      ]
+
+    }
+  ]

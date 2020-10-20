@@ -1,0 +1,27 @@
+ [
+    {
+      "quesId":1,
+      "question":"What is the capital of India ?",
+      "isVisited":false
+    },
+    {
+      "quesId":2,
+      "question":"What is the national animal of India?",
+      "isVisited":false
+    },
+    {
+      "quesId":3,
+      "question":"Which is not a color present in Traffic Signal?",
+      "isVisited":false
+    },
+    {
+      "quesId":4,
+      "question":"What is typeof NaN",
+      "isVisited":false
+    },
+    {
+      "quesId":5,
+      "question":"Who is the PM of India?",
+      "isVisited":false
+    }
+  ]

@@ -1,0 +1,22 @@
+.containerClass {
+  width: 30%;
+  height: 24%;
+  background-color: aliceblue;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  .mainTitle {
+    font-size: 20px;
+    ;
+  }
+
+  .subTitle {
+    color: #8f7676ee;
+  }
+}
